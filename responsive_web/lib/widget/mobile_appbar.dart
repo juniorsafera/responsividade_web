@@ -29,9 +29,6 @@ class _MobileAppBarState extends State<MobileAppBar> {
           IconButton(
             onPressed: (){},
             icon: Icon(Icons.more_vert)),
-          
-
-
         ],
         )
     ;
