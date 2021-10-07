@@ -1,6 +1,7 @@
  import 'package:flutter/material.dart';
 
-import 'widget/mobile_appbar.dart';
+import 'widgets/mobile_appbar.dart';
+import 'widgets/web_appbar.dart';
 
  class Home extends StatefulWidget {
    const Home({ Key? key }) : super(key: key);
@@ -21,7 +22,7 @@ import 'widget/mobile_appbar.dart';
          return Scaffold(
            appBar: largura < 600
            ? PreferredSize(child: MobileAppBar(), preferredSize: Size(largura, alturaBarra))
-           : AppBar(),
+           : PreferredSize(child: WebAppBar(), preferredSize: Size(largura, alturaBarra)),
          );
 
      });
