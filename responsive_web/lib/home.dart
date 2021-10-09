@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_web/widgets/item_produto.dart';
 
 import 'widgets/mobile_appbar.dart';
 import 'widgets/web_appbar.dart';
@@ -53,7 +54,26 @@ class _HomeState extends State<Home> {
             crossAxisCount: _ajustarVisualizacao(largura),
             crossAxisSpacing: 8, // espaço lateral
             mainAxisSpacing: 8, // espaço altura
-            children: [],
+            children: [
+              itemProduto("Kit Multimídia", "2.200,00", "p1.jpg"),
+              itemProduto("Pnew Goodyear aro 16", "800,00", "p2.jpg"),
+              itemProduto("Samsung 9", "4.100,00", "p3.jpg"),
+              itemProduto("Samsung Edge", "2.150,90", "p4.jpg"),
+              itemProduto("Galaxy 10", "6.200,00", "p5.jpg"),
+              itemProduto("iPhone 8g", "1.920,00", "p6.jpg"),
+              itemProduto("Kit Multimídia", "2.200,00", "p1.jpg"),
+              itemProduto("Pnew Goodyear aro 16", "800,00", "p2.jpg"),
+              itemProduto("Samsung 9", "4.100,00", "p3.jpg"),
+              itemProduto("Samsung Edge", "2.150,90", "p4.jpg"),
+              itemProduto("Galaxy 10", "6.200,00", "p5.jpg"),
+              itemProduto("iPhone 8g", "1.920,00", "p6.jpg"),
+              itemProduto("Kit Multimídia", "2.200,00", "p1.jpg"),
+              itemProduto("Pnew Goodyear aro 16", "800,00", "p2.jpg"),
+              itemProduto("Samsung 9", "4.100,00", "p3.jpg"),
+              itemProduto("Samsung Edge", "2.150,90", "p4.jpg"),
+              itemProduto("Galaxy 10", "6.200,00", "p5.jpg"),
+              itemProduto("iPhone 8g", "1.920,00", "p6.jpg"),
+            ],
           ),
         ),
       ); // Fim Scaffold
